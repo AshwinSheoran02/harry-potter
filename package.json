@@ -1,0 +1,12 @@
+{
+  "name": "harry-potter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Harry Potter: The Battle for the Wizarding World, a digital tabletop edition of a two-player board game.",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/engine.test.cjs && node tests/ai.test.cjs 200",
+    "test:ui": "node tests/ui.test.cjs && node tests/ai-ui.test.cjs",
+    "serve": "node tests/serve.cjs"
+  }
+}
